@@ -1,0 +1,6 @@
+ato-version: ^0.2.0
+builds:
+  default:
+    entry: elec/src/ma732.ato:Ma732
+dependencies:
+- generics
