@@ -1,6 +1,9 @@
 ato-version: ^0.2.0
 builds:
   default:
-    entry: elec/src/ma732.ato:Ma732
+    entry: elec/src/ma732.ato:MA732
 dependencies:
 - generics
+
+services:
+  components: https://atopile-component-server-atsuhzfd5a-uc.a.run.app/jlc
